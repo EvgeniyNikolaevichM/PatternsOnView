@@ -1,0 +1,22 @@
+
+<!DOCTYPE student [
+
+        <!ELEMENT student (subject*,average?)>
+        <!ATTLIST student
+                lastname CDATA #REQUIRED
+                >
+
+        <!ELEMENT subject EMPTY>
+        <!ATTLIST subject
+                title CDATA #REQUIRED
+                mark (2.0|2|3|4|5) #REQUIRED
+                >
+
+        <!ELEMENT average (#PCDATA)>]>
+
+<student lastname="Slava">
+    <subject title="Math" mark="5"/>
+    <subject title="Program" mark="5"/>
+    <subject title="English" mark="5"/>
+    <average>3</average>
+</student>

@@ -1,0 +1,9 @@
+lab_rab.lab2.Car
+AAA
+3
+100.0
+Model [0]
+100.0
+Model [1]
+100.0
+Model [2]
